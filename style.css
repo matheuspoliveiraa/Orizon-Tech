@@ -3,11 +3,11 @@
             --blue-light: #39FF14; /* Verde Claro*/
             --blue-dim: rgba(31, 156, 20, 0.12); /* Sombra verde */
             --black: #0F0F0F; /* Pretado praticamente preto*/
-            --dark: #0c1120;
-            --dark2: #111827;
-            --gray: #8896b0;
-            --white: #f0f4ff;
-            --border: rgba(26, 108, 255, 0.18);
+            --dark: #07110C; /* Verde quase preto */
+            --dark2: #151918; /* Pateado escuro */
+            --gray: #8A938D; /* Prateado discreto para textos */
+            --white: #F5F7FF; /* Branco*/
+            --border: rgba(0, 255, 136, 0.5);
         }
 
         * {
@@ -545,8 +545,8 @@
         }
 
         .team-avatar {
-            width: 72px;
-            height: 72px;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
             background: linear-gradient(135deg, var(--blue-dim), var(--dark));
             border: 2px solid var(--border);
@@ -558,6 +558,12 @@
             font-size: 1.5rem;
             font-weight: 800;
             color: var(--blue-light);
+        }
+
+        .team-avatar img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
         }
 
         .team-card h4 {
@@ -799,6 +805,31 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        #mensagem-sucesso{
+display:none;
+margin-top:15px;
+color:#39FF14;
+font-weight:600;
+animation:neonGlow 1.5s infinite alternate;
+}
+
+@keyframes neonGlow{
+
+from{
+text-shadow:
+0 0 5px #39FF14,
+0 0 10px #39FF14;
+}
+
+to{
+text-shadow:
+0 0 10px #39FF14,
+0 0 25px #39FF14,
+0 0 40px #39FF14;
+}
+
+}
 
         /* ── RESPONSIVE ── */
         @media (max-width: 900px) {

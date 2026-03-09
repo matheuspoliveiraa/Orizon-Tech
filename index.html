@@ -47,16 +47,16 @@
             </div>
             <div class="hero-stats">
                 <div>
-                    <div class="stat-num">50<span>+</span></div>
-                    <div class="stat-label">Projetos entregues</div>
+                    <div class="stat-num">💻</div>
+                    <div class="stat-label">Sites modernos</div>
                 </div>
                 <div>
-                    <div class="stat-num">100<span>%</span></div>
-                    <div class="stat-label">Clientes satisfeitos</div>
+                    <div class="stat-num">⚙️</div>
+                    <div class="stat-label">Performance</div>
                 </div>
                 <div>
-                    <div class="stat-num">3<span>x</span></div>
-                    <div class="stat-label">Mais conversão média</div>
+                    <div class="stat-num">💡</div>
+                    <div class="stat-label">Inovação</div>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
     <section id="missoes">
         <div class="mission-header reveal">
             <span class="section-tag">O que fazemos</span>
-            <h2>Nossas missões</h2>
+            <h2>Nossos diferenciais</h2>
             <p class="section-desc">Cada projeto é tratado como único. Nosso compromisso vai além do código — entregamos
                 resultados.</p>
         </div>
@@ -79,9 +79,9 @@
                 <p>Criamos sites e sistemas web com performance e responsividade de ponta, do layout ao back-end.</p>
             </div>
             <div class="mission-card reveal">
-                <div class="mission-icon">🎯</div>
-                <h3>Estratégia Digital</h3>
-                <p>Alinhamos design e tecnologia aos seus objetivos de negócio para gerar mais visibilidade e vendas.
+                <div class="mission-icon">🛒</div>
+                <h3>E-commerce</h3>
+                <p>Desenvolvemos lojas virtuais preparadas para vender online.
                 </p>
             </div>
             <div class="mission-card reveal">
@@ -115,8 +115,7 @@
     <section id="sobre">
         <div class="sobre-visual reveal">
             <div class="sobre-card-main">
-                <img src="./img/Logo.png" alt="Orizon Tech Logo"
-                    class="sobre-logo">
+                <img src="./img/Logo.png" alt="Orizon Tech Logo" class="sobre-logo">
                 <h3>ORIZON <span>TECH</span></h3>
                 <p>Transformando ideias em presença digital desde o início.</p>
                 <div class="sobre-badge-row">
@@ -156,28 +155,28 @@
         </div>
         <div class="team-grid">
             <div class="team-card reveal">
-                <div class="team-avatar">A</div>
-                <h4>Nome do Membro</h4>
-                <div class="team-role">CEO & Fundador</div>
-                <p class="team-desc">Lidera a visão estratégica da empresa e os principais projetos.</p>
+                <div class="team-avatar"><img src="./img/Logo.png" alt=""></div>
+                <h4>Jéssica Quadro</h4>
+                <div class="team-role">Líder</div>
+                <p class="team-desc">Responsável pela organização da equipe e acompanhamento do desenvolvimento.</p>
             </div>
             <div class="team-card reveal">
                 <div class="team-avatar">B</div>
-                <h4>Nome do Membro</h4>
-                <div class="team-role">Dev Full Stack</div>
-                <p class="team-desc">Especialista em desenvolvimento web moderno e arquitetura de sistemas.</p>
+                <h4>Matheus Pinheiro</h4>
+                <div class="team-role">Programador</div>
+                <p class="team-desc">Responsável pelo desenvolvimento e implementação do site.</p>
             </div>
             <div class="team-card reveal">
                 <div class="team-avatar">C</div>
-                <h4>Nome do Membro</h4>
-                <div class="team-role">UI/UX Designer</div>
-                <p class="team-desc">Cria interfaces intuitivas e experiências visuais marcantes.</p>
+                <h4>Meriani Garcia</h4>
+                <div class="team-role">Designer</div>
+                <p class="team-desc">Responsável pela identidade visual e design da interface.</p>
             </div>
             <div class="team-card reveal">
                 <div class="team-avatar">D</div>
-                <h4>Nome do Membro</h4>
-                <div class="team-role">Growth & SEO</div>
-                <p class="team-desc">Responsável por ranqueamento, performance e estratégia digital.</p>
+                <h4>Mateus de Oliveira</h4>
+                <div class="team-role">Editor</div>
+                <p class="team-desc">Responsável pela organização dos conteúdos e estrutura das informações.</p>
             </div>
         </div>
     </section>
@@ -217,33 +216,46 @@
                 </div>
             </div>
         </div>
-        <div class="contato-form reveal">
-            <h3>Solicite uma proposta</h3>
-            <div class="form-group">
-                <label>Nome</label>
-                <input type="text" placeholder="Seu nome completo">
-            </div>
-            <div class="form-group">
-                <label>E-mail</label>
-                <input type="email" placeholder="seu@email.com">
-            </div>
-            <div class="form-group">
-                <label>Tipo de projeto</label>
-                <select>
-                    <option value="">Selecione...</option>
-                    <option>Site Institucional</option>
-                    <option>Landing Page</option>
-                    <option>E-commerce</option>
-                    <option>Sistema Web</option>
-                    <option>Outro</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label>Mensagem</label>
-                <textarea placeholder="Conte um pouco sobre seu projeto..."></textarea>
-            </div>
-            <button class="form-submit">Enviar mensagem →</button>
-        </div>
+        
+            <form class="contato-form reveal" id="contato-form" action="https://formsubmit.co/orizontech05@gmail.com"
+                method="POST">
+
+                <h3>Solicite uma proposta</h3>
+
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de projeto</label>
+                    <select name="projeto" required>
+                        <option value="">Selecione...</option>
+                        <option>Site Institucional</option>
+                        <option>Landing Page</option>
+                        <option>E-commerce</option>
+                        <option>Sistema Web</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Mensagem</label>
+                    <textarea name="mensagem" placeholder="Conte um pouco sobre seu projeto..." required></textarea>
+                </div>
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit" class="form-submit">Enviar mensagem →</button>
+
+                <p id="mensagem-sucesso">✅ Mensagem enviada com sucesso!</p>
+
+            </form>
     </section>
 
     <!-- FOOTER -->
@@ -259,32 +271,8 @@
         </div>
     </footer>
 
-    <script>
-        // Reveal on scroll
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry, i) => {
-                if (entry.isIntersecting) {
-                    setTimeout(() => entry.target.classList.add('visible'), i * 80);
-                }
-            });
-        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    <script src="./form.js"></script>
 
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-        // Active nav link
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.nav-links a');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(sec => {
-                if (window.scrollY >= sec.offsetTop - 100) current = sec.getAttribute('id');
-            });
-            navLinks.forEach(a => {
-                a.style.color = a.getAttribute('href') === '#' + current ? 'var(--white)' : '';
-            });
-        });
-    </script>
 </body>
 
 </html>
