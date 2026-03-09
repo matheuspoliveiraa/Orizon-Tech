@@ -1,8 +1,8 @@
   :root {
             --blue: #1c6d1c; /* Verde escuro */
-            --blue-light: #4d8fff;
-            --blue-dim: rgba(26, 108, 255, 0.12);
-            --black: #060810;
+            --blue-light: #39FF14; /* Verde Claro*/
+            --blue-dim: rgba(31, 156, 20, 0.12); /* Sombra verde */
+            --black: #0F0F0F; /* Pretado praticamente preto*/
             --dark: #0c1120;
             --dark2: #111827;
             --gray: #8896b0;
@@ -79,8 +79,8 @@
         }
 
         .nav-logo img {
-            width: 40px;
-            height: 40px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             border: 1px solid var(--border);
         }
