@@ -904,9 +904,14 @@
           flex-wrap: wrap;
           gap: 32px;
       }
+
+      #terminal {
+        display: none;
+      }
+      
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
       nav {
           padding: 0 5%;
       }
@@ -929,10 +934,7 @@
         display: flex;
       }
 
-      .hero-matrix-wrapper {
-        display: none;
-      }
-  }
+    }
 
   @media (min-width: 1200px) {
 
