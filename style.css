@@ -62,6 +62,7 @@
     #topo img {
     height: 60px;
     width: 60px;
+    
 }
 
 
@@ -86,7 +87,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 6%;
-      height: 72px;
+      height: 78px;
       background: rgba(6, 8, 16, 0.85);
       backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border); 
@@ -353,7 +354,7 @@
 
   .section-desc {
       color: var(--gray);
-      max-width: 520px;
+   
       font-weight: 300;
       font-size: 1.02rem;
   }
@@ -814,6 +815,28 @@
       background: var(--border);
       margin: 0 6%;
   }
+
+  /* ── PORTIFÓLIO ──  */
+
+  .portifolio .home {
+    justify-content: center;
+  }
+
+  .portifolio #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.portifolio .mission-header {
+    text-align: center;
+}
+
+#missoes h2 {
+    color: var(--blue);
+}
 
   /* ── ANIMATIONS ── */
   @keyframes fadeUp {
