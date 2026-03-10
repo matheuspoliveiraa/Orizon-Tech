@@ -657,9 +657,17 @@
       color: var(--white);
       font-weight: 400;
       margin-top: 2px;
-      list-style: none;
-      text-decoration: none;
   }
+
+  .contact-item-value a {
+     color: var(--white);
+     text-decoration: none;
+  }
+
+  .contact-item-value a:visited,
+  .contact-item-value a:active{
+    color: var(--blue-light);
+}
 
   /* FORM */
   .contato-form {
