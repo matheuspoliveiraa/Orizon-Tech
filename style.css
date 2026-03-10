@@ -657,6 +657,8 @@
       color: var(--white);
       font-weight: 400;
       margin-top: 2px;
+      list-style: none;
+      text-decoration: none;
   }
 
   /* FORM */
