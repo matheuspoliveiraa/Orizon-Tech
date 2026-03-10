@@ -61,7 +61,6 @@
       z-index: 0;
       opacity: 0.4;
   }
-
   /* ── NAV ── */
   nav {
       position: fixed;
@@ -76,7 +75,7 @@
       height: 72px;
       background: rgba(6, 8, 16, 0.85);
       backdrop-filter: blur(20px);
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid var(--border); 
   }
 
   .nav-logo {
@@ -155,10 +154,10 @@
       position: absolute;
       inset: 0;
       background-image:
-          linear-gradient(rgba(26, 108, 255, 0.05) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(26, 108, 255, 0.05) 1px, transparent 1px);
+          linear-gradient(rgba(34, 255, 26, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(216, 17, 60, 0.05) 1px, transparent 1px);
       background-size: 60px 60px;
-      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, rgb(0, 0, 0) 30%, transparent 100%);
   }
 
   .hero-glow {
@@ -166,7 +165,7 @@
       width: 600px;
       height: 600px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(26, 108, 255, 0.15) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(31, 150, 7, 0.15) 0%, transparent 70%);
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -264,7 +263,7 @@
   .btn-primary:hover {
       background: var(--blue-light);
       transform: translateY(-1px);
-      box-shadow: 0 8px 32px rgba(26, 108, 255, 0.35);
+      box-shadow: 0 8px 32px rgba(26, 255, 37, 0.35);
   }
 
   .btn-secondary {
@@ -442,11 +441,11 @@
   .sobre-card-main::after {
       content: '';
       position: absolute;
-      bottom: -60px;
-      right: -60px;
+      bottom: -80px;
+      right: -80px;
       width: 200px;
       height: 200px;
-      background: radial-gradient(circle, rgba(26, 108, 255, 0.12) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(220, 230, 235, 0.18) 0%, transparent 70%);
       border-radius: 50%;
   }
 
@@ -550,7 +549,7 @@
   .team-card:hover {
       border-color: var(--blue);
       transform: translateY(-4px);
-      box-shadow: 0 16px 48px rgba(26, 108, 255, 0.12);
+      box-shadow: 0 16px 48px rgba(53, 255, 26, 0.12);
   }
 
   .team-avatar {
@@ -708,7 +707,7 @@
   .form-group textarea:focus,
   .form-group select:focus {
       border-color: var(--blue);
-      box-shadow: 0 0 0 3px rgba(26, 108, 255, 0.1);
+      box-shadow: 0 0 0 3px rgba(26, 255, 76, 0.1);
   }
 
   .form-group textarea {
@@ -737,7 +736,7 @@
 
   .form-submit:hover {
       background: var(--blue-light);
-      box-shadow: 0 8px 32px rgba(26, 108, 255, 0.35);
+      box-shadow: 0 8px 32px rgba(26, 255, 76, 0.35);
   }
 
   /* ── FOOTER ── */
