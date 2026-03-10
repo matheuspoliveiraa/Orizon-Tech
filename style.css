@@ -546,8 +546,8 @@
         }
 
         .team-avatar {
-            width: 90px;
-            height: 90px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             background: linear-gradient(135deg, var(--blue-dim), var(--dark));
             border: 2px solid var(--border);
@@ -562,9 +562,10 @@
         }
 
         .team-avatar img {
-            height: 80px;
-            width: 80px;
+            height: 190px;
+            width: 190px;
             border-radius: 50%;
+             object-fit: cover;
         }
 
         .team-card h4 {
