@@ -908,6 +908,10 @@
       #terminal {
         display: none;
       }
+
+      .footer-links {
+        display: none;
+      }
       
   }
 
