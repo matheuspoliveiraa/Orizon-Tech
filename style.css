@@ -946,14 +946,13 @@
 
 
 /* ── TERMINAL ── */
-.hero-matrix-wrapper {
+#terminal {
    position: relative;
    z-index: 1;
-   flex: 0 0 620px;
+   flex: 0 0 900px;
    padding-top: 16px;
    animation: fadeUp .6s .5s ease both;
-   margin-left: 200px;
-   margin-top: -80px;
+   margin-left: 150px;
 }
 .terminal-frame {
    position: relative;
@@ -965,6 +964,7 @@
    box-shadow: 0 0 0 1px rgba(57,255,20,.05), 0 24px 80px rgba(0,0,0,.8), inset 0 0 60px rgba(5,14,8,.99);
    display: flex;
    flex-direction: column;
+   
 }
 .terminal-bar {
    background: #0d1a0f;
@@ -1025,10 +1025,10 @@
    vertical-align: middle;
 }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-@media(max-width:1200px){ .hero-matrix-wrapper { flex: 0 0 520px; } .terminal-body { font-size: 12px; } }
+@media(max-width:1200px){ #terminal { flex: 0 0 520px; } .terminal-body { font-size: 12px; } }
 @media(max-width:900px){
    #home { flex-direction: column; }
-   .hero-matrix-wrapper { flex: 0 0 auto; width: 100%; max-width: 640px; padding-top: 0; }
+   #terminal { flex: 0 0 auto; width: 100%; max-width: 640px; padding-top: 0; }
    .terminal-frame { height: 320px; }
 }
 .tl-row-0 {
