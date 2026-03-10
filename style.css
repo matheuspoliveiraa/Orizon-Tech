@@ -51,6 +51,20 @@
       border-radius: 2px;
   }
 
+  /* Topo do site */
+
+    #topo {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
+
+    #topo img {
+    height: 40px;
+    width: 40px;
+}
+
+
   /* ── NOISE OVERLAY ── */
   body::before {
       content: '';
@@ -666,7 +680,7 @@
 
   .contact-item-value a:visited,
   .contact-item-value a:active{
-    color: var(--blue-light);
+    color: var(--white);
 }
 
   /* FORM */
@@ -887,6 +901,18 @@
           flex-direction: column;
           align-items: flex-start;
       }
+
+      topo {
+        display: flex;
+      }
+  }
+
+  @media (min-width: 1200px) {
+
+    #topo {
+        display: none;
+    }
+
   }
 
 
