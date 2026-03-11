@@ -275,6 +275,7 @@
       transition: all 0.2s;
       border: none;
       cursor: pointer;
+      
   }
 
   .btn-primary:hover {
@@ -836,8 +837,13 @@
     text-align: center;
 }
 
-#missoes h2 {
-    color: var(--blue);
+.portifolio .btn-primary {
+  margin-top: 20px; 
+  display: inline-block; 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
 }
 
   /* ── ANIMATIONS ── */
