@@ -846,6 +846,12 @@
   
 }
 
+.portifolio .mission-icon img {
+    width: 60x;
+    height: 60px;
+    border-radius: 50%;
+}
+
   /* ── ANIMATIONS ── */
   @keyframes fadeUp {
       from {
