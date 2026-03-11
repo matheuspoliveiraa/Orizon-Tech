@@ -163,6 +163,7 @@
       padding: 120px 6% 80px;
       position: relative;
       overflow: hidden;
+      
   }
 
   .hero-grid-bg {
@@ -207,6 +208,7 @@
       color: var(--blue-light);
       margin-bottom: 28px;
       animation: fadeUp 0.6s ease both;
+      
   }
 
   .hero-badge::before {
@@ -946,17 +948,28 @@
         display: none;
     }
 
+      #terminal{
+      max-width: 700px;
   }
+  
+}
+
+@media (min-width: 1400px) {
+     #terminal{
+      max-width: 900px;
+  }
+}
 
 
 /* ── TERMINAL ── */
 #terminal {
    position: relative;
    z-index: 1;
-   flex: 0 0 900px;
+   width: 100%;
    padding-top: 16px;
    animation: fadeUp .6s .5s ease both;
-   margin-left: 150px;
+   margin: auto;
+
 }
 .terminal-frame {
    position: relative;
