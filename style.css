@@ -852,6 +852,61 @@
     border-radius: 50%;
 }
 
+.portifolio .imglogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.portifolio .imglogo {
+    width: 52px;
+      height: 52px;
+      background: var(--blue-dim);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      font-size: 1.4rem;
+}
+
+/* Projeto principal */
+
+#projetoreal{
+    padding: 80px 10%;
+}
+
+.projeto-destaque{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 60px;
+    background: #0b1512;
+    border: 1px solid #00ff88;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.projeto-img img{
+    width: 140px;
+}
+
+.projeto-info{
+    max-width: 700px;
+}
+
+.projeto-info h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.projeto-info p{
+    margin-bottom: 15px;
+    color: #bdbdbd;
+}
+
+
   /* ── ANIMATIONS ── */
   @keyframes fadeUp {
       from {
