@@ -50,3 +50,31 @@
                 });
 
         });
+
+        /* ───────── MENU MOBILE ───────── */
+
+// fecha o menu ao rolar a página
+window.addEventListener("scroll", function(){
+
+    const menuCheck = document.getElementById("check");
+
+    if(menuCheck && menuCheck.checked){
+        menuCheck.checked = false;
+    }
+
+});
+
+// fecha o menu ao clicar em algum link
+document.querySelectorAll(".nav-links a").forEach(link => {
+
+    link.addEventListener("click", () => {
+        
+        const menuCheck = document.getElementById("check");
+
+        if(menuCheck){
+            menuCheck.checked = false;
+        }
+
+    });
+
+});
